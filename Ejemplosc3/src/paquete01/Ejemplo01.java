@@ -35,6 +35,8 @@ public class Ejemplo01 {
         
         // forma 4
         int[][] arreglo4 = {{10, 20}, {100, 200, 300}};
+        
+        System.out.printf("%s\n", arreglo1[0][2]);
     }
     
 }

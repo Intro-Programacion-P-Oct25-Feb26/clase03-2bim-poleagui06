@@ -27,10 +27,10 @@ public class Ejemplo04 {
         
         };
         
-        int suma;
+        int suma = 0;
         
         for (int fila = 0; fila < arreglo1.length; fila++) { // 0<2 // 1<2
-            suma = 0;
+            // suma = 0;
             for (int col = 0; col < arreglo1[fila].length; col++) { // arreglo1[0].length:3 
                                                                     // 0<3 // 1<3 // 2<3 // 3<3
                 suma = suma + arreglo1[fila][col];
