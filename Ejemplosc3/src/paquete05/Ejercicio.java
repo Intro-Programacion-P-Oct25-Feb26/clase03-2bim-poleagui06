@@ -35,7 +35,7 @@ public class Ejercicio {
             for (int columna = 0; columna < 12; columna++) {
                 System.out.print("  Producción mes " + (columna + 1) + ": ");
                 produccionMensual[fila][columna] = entrada.nextDouble();
-                suma += produccionMensual[fila][columna];
+                suma = suma + produccionMensual[fila][columna];
             }
             entrada.nextLine(); 
 
