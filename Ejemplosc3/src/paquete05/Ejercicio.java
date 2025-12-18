@@ -41,9 +41,10 @@ public class Ejercicio {
 
             totalProduccion[fila] = suma;
 
-            reporte = String.format("%s%s - Total Producción: $ %.0f\n",
+            reporte = String.format("%s%s Estación %d - Total Producción: $ %.0f\n",
                     reporte,
                     nombresEncargados[fila],
+                    (fila + 1),
                     totalProduccion[fila]);
 
             if (totalProduccion[fila] > maxProduccion) {
