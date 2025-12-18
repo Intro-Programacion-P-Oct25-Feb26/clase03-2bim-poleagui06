@@ -41,7 +41,9 @@ public class Ejercicio {
 
             totalProduccion[fila] = suma;
 
-            reporte = String.format("%s%s Estación %d - Total Producción: $ %.0f\n",
+            reporte = String.format("%s\nAnálisis de producción\n"
+                    + "Estación\n"
+                    + "%s Estación %d - Total Producción: $ %.0f\n",
                     reporte,
                     nombresEncargados[fila],
                     (fila + 1),
